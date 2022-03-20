@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>SignUp Successful</title>
+</head>
+<body>
+	<h1 th:text="${signupData.userName}"></h1>
+	<h1 th:text="${signupData.email}"></h1>
+	<h1 th:text="'Terms and conditions agree status: ' + ${signupData.agreed}"></h1>
+</body>
+</html>
